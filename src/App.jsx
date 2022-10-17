@@ -36,7 +36,7 @@ function App() {
                   <img src={sansevieria} alt="sansevieria" />
                 </div>
                 <span className="imgtitle">Sansevieria </span>
-                <span className="imgfont">Foto de <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> en <a href="https://unsplash.com/es/s/fotos/planta-lengua-de-suegra?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+                <span className="imgfont">Foto de <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" className="link">Kelly Sikkema</a> en <a href="https://unsplash.com/es/s/fotos/planta-lengua-de-suegra?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" className="link" >Unsplash</a></span>
               </li>
 
               <li className="PlantsCard">
@@ -44,11 +44,17 @@ function App() {
                   <img src={monstera} alt="monstera" />
                 </div>
                 <span className="imgtitle">Monstera </span>
-                <span className="imgfont">Foto de <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> en <a href="https://unsplash.com/es/s/fotos/planta-lengua-de-suegra?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+                <span className="imgfont">Foto de <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" className="link">Kelly Sikkema</a> en <a href="https://unsplash.com/es/s/fotos/planta-lengua-de-suegra?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" className="link">Unsplash</a></span>
               </li>
             </ul>      
         </section>
       </main>
+
+      <footer>
+        <div>
+        ©CopyRight 2022 <a href="mailto:natics07@gmail.com" className="link">Nat</a>
+        </div>
+      </footer>
     </div>
   );
 }
