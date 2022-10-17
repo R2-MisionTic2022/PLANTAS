@@ -1,7 +1,7 @@
 import './styles/App.css';
 import sansevieria from './media/sansevieria.jpg';
 import monstera from './media/monstera.jpg';
-import logo from './media/logo.JPG';
+import logo from './media/logo.png';
 
 function App() {
   return (
