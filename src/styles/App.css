@@ -125,6 +125,13 @@ h1{
   text-decoration-color: #54e754;
 }
 
+h2{
+  color:#54e754 ;
+  text-align: left;
+  font-size: 24px;
+  text-decoration-color:rgb(184, 143, 223);
+}
+
 .imgfont{
   font-size: 8px;
   color:white;
