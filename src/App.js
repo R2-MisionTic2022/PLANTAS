@@ -12,7 +12,7 @@ function App() {
           </li>
           <li>
             <div class="buscar"><input placeholder="Encuentra tu planta"/>
-            <i class="fa fa-search"></i>
+            <i class="fa fa-search iconobusqueda"></i>
             </div>
           </li>
 

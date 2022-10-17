@@ -11,6 +11,14 @@ header{
   display:flex;
   justify-content:space-between;
   padding:20px;
+  background-color: white;
+  border-bottom: 0.8px solid rgb(184, 143, 223);
+  box-shadow: 0.8px 0.8px rgb(184, 143, 223);
+}
+
+.navbar > li{
+  display:flex;
+  align-items: center;
 }
 
 .logo{
@@ -37,9 +45,18 @@ header{
 }
 
 .secondarybutton{
-  background-color: blueviolet;
+  background-color: rgb(184, 143, 223);
   color: white;
   box-shadow: 5px green; 
+}
+
+.iconobusqueda{
+  cursor:pointer;
+  transform: scale(1.1);
+}
+
+.iconobusqueda:hover{
+  color:rgb(184, 143, 223);
 }
 
 ul{
@@ -50,11 +67,15 @@ ul{
 
 .buscar{
   background-color: white;
-  border: 1px solid gray;
-  padding: 4px;
+  border: 1px solid rgb(184, 143, 223);
+  padding: 8px;
   border-radius: 8px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: bold;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  cursor:pointer;
 }
 
 .buscar:focus-within{
@@ -64,6 +85,7 @@ ul{
 .buscar > input{
   outline: none;
   border: 0px;
+  cursor:pointer;
 }
 
 
