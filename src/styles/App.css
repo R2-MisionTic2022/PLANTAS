@@ -1,5 +1,10 @@
 body {
   margin: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .navbar{
@@ -7,6 +12,38 @@ body {
   justify-content:space-between;
   padding:20px;
 }
+
+.logo{
+  width: 260px;
+}
+
+.button{
+  border: none;
+  padding: 15px 20px;
+  border-radius: 25px;
+  font-weight: bolder;
+}
+
+.button:hover {
+  cursor:pointer;
+  transform: scale(1.1);
+  box-shadow: 1px 1px #54e754;
+}
+
+.mainbutton{
+  background-color: #54e754;
+  color: white;
+  box-shadow: 5px green;
+}
+
+.secondarybutton{
+  background-color: blueviolet;
+  color: white;
+  box-shadow: 5px green; 
+}
+
+
+
 
 ul{
   list-style:none ;

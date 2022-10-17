@@ -1,16 +1,19 @@
-import logo from './logo.svg';
 import './styles/App.css';
 import sansevieria from './media/sansevieria.jpg';
+import logo from './media/logo.JPG';
 
 function App() {
   return (
     <div className="App">     
       <header>
         <ul className="navbar">
-        <li>Logo</li>
+        <li>
+          <img src={logo} alt="logo" className="logo"/> 
+          
+        </li>
         <li>Busqueda</li>
-        <li>Registro</li>
-        <li>Iniciar Sesión</li>
+        <li><button className="button mainbutton">Iniciar Sesión</button></li>
+        <li><button className="button secondarybutton">Registrarse</button></li>
         </ul>
       </header>
       <main>
