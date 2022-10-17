@@ -7,15 +7,25 @@ function App() {
     <div className="App">     
       <header>
         <ul className="navbar">
-        <li>
-          <img src={logo} alt="logo" className="logo"/> 
-          
-        </li>
-        <li>Busqueda</li>
-        <li><button className="button mainbutton">Iniciar Sesión</button></li>
-        <li><button className="button secondarybutton">Registrarse</button></li>
+          <li>
+            <img src={logo} alt="logo" className="logo"/> 
+          </li>
+          <li>
+            <div class="buscar"><input placeholder="Encuentra tu planta"/>
+            <i class="fa fa-search"></i>
+            </div>
+          </li>
+
+          <li>
+            <button className="button mainbutton">Iniciar Sesión</button>
+          </li>
+
+          <li>
+            <button className="button secondarybutton">Registrarse</button>
+          </li>
         </ul>
       </header>
+
       <main>
         <section>
           <h1>Tipos de Plantas</h1>

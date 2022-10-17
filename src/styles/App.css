@@ -42,14 +42,35 @@ header{
   box-shadow: 5px green; 
 }
 
-
-
-
 ul{
   list-style:none ;
   padding: 0px;
   margin: 0px;
 }
+
+.buscar{
+  background-color: white;
+  border: 1px solid gray;
+  padding: 4px;
+  border-radius: 8px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.buscar:focus-within{
+  border: 1px solid blueviolet;
+}
+
+.buscar > input{
+  outline: none;
+  border: 0px;
+}
+
+
+
+
+
+
 
 .ConenedorImagen{
   height: 50px;
