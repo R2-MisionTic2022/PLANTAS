@@ -1,5 +1,6 @@
 import './styles/App.css';
 import sansevieria from './media/sansevieria.jpg';
+import monstera from './media/monstera.jpg';
 import logo from './media/logo.JPG';
 
 function App() {
@@ -29,24 +30,24 @@ function App() {
       <main>
         <section>
           <h1>Tipos de Plantas</h1>
-          <ul className="BreedCardContainer"></ul>
-          <li className="BreedCard"></li>
-            <div className="ConenedorImagen">
-              <img src={sansevieria} alt="sansevieria" />
-              Foto de <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> en <a href="https://unsplash.com/es/s/fotos/planta-lengua-de-suegra?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-            </div>
-            <li className="BreedCard"></li>
-            <div className="ConenedorImagen">
-              <img src={sansevieria} alt="sansevieria" />
-              Foto de <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> en <a href="https://unsplash.com/es/s/fotos/planta-lengua-de-suegra?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-            </div>
+            <ul className="PlantsCardContainer">
+              <li className="PlantsCard">
+                <div className="ContainerImage">
+                  <img src={sansevieria} alt="sansevieria" />
+                </div>
+                <span className="imgtitle">Sansevieria </span>
+                <span className="imgfont">Foto de <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> en <a href="https://unsplash.com/es/s/fotos/planta-lengua-de-suegra?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+              </li>
 
-
-            
-
+              <li className="PlantsCard">
+                <div className="ContainerImage">
+                  <img src={monstera} alt="monstera" />
+                </div>
+                <span className="imgtitle">Monstera </span>
+                <span className="imgfont">Foto de <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> en <a href="https://unsplash.com/es/s/fotos/planta-lengua-de-suegra?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+              </li>
+            </ul>      
         </section>
-
-
       </main>
     </div>
   );

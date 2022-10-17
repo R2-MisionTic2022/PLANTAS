@@ -88,13 +88,51 @@ ul{
   cursor:pointer;
 }
 
+.ContainerImage{
+  height: 360px;
+  width: 270px;
+  display: flex;
+}
 
+.PlantsCardContainer{
+  display: flex;
+}
 
+.PlantsCard{
+  margin:20px;
+  background-color: rgb(160, 160, 162);
+  box-shadow: 5px 10px 5px rgb(160, 160, 162);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
 
+.ContainerImage > img{
+  object-fit:cover;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
 
+.ContainerImage:hover{
+  cursor:pointer;
+  transform: scale(1.02);
+}
 
+h1{
+  color:rgb(184, 143, 223);
+  text-align: center;
+  font-size: 32px;
+  text-decoration-color: #54e754;
+}
 
-.ConenedorImagen{
-  height: 50px;
-  width: 50px;
+.imgfont{
+  font-size: 8px;
+  color:white;
+}
+
+.imgtitle{
+  font-size: 16px;
+  color: white;
+  margin: 10px;
+
 }
