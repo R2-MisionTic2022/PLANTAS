@@ -10,7 +10,7 @@ header{
 .navbar{
   display:flex;
   justify-content:space-between;
-  padding:20px;
+  padding:10px;
   background-color: white;
   border-bottom: 0.8px solid rgb(184, 143, 223);
   box-shadow: 0.8px 0.8px rgb(184, 143, 223);
@@ -22,12 +22,12 @@ header{
 }
 
 .logo{
-  width: 260px;
+  width: 200px;
 }
 
 .button{
   border: none;
-  padding: 15px 20px;
+  padding: 8px 12px;
   border-radius: 25px;
   font-weight: bolder;
 }
@@ -72,7 +72,7 @@ ul{
   border-radius: 8px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: bold;
-  width: 400px;
+  width: 300px;
   display: flex;
   justify-content: space-between;
   cursor:pointer;
@@ -99,7 +99,7 @@ ul{
 }
 
 .PlantsCard{
-  margin:20px;
+  margin:10px;
   background-color: rgb(160, 160, 162);
   box-shadow: 5px 10px 5px rgb(160, 160, 162);
   border-top-right-radius: 10px;
@@ -121,7 +121,7 @@ ul{
 h1{
   color:rgb(184, 143, 223);
   text-align: center;
-  font-size: 32px;
+  font-size: 28px;
   text-decoration-color: #54e754;
 }
 
