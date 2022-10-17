@@ -34,6 +34,8 @@ function App() {
             <ul className="PlantsCardContainer">
               <PlantsCard nombrePlanta="Sansevieria" imagenPlanta={sansevieria} />
               <PlantsCard nombrePlanta="Monstera" imagenPlanta={monstera}/>
+              <PlantsCard nombrePlanta="Sansevieria" imagenPlanta={sansevieria} />
+              <PlantsCard nombrePlanta="Monstera" imagenPlanta={monstera}/>
             </ul>      
         </section>
       </main>
@@ -47,13 +49,13 @@ function App() {
   );
 }
 
-function PlantsCard(props){
+function PlantsCard({nombrePlanta, imagenPlanta}){
   return(
     <li className="PlantsCard">
       <div className="ContainerImage">
-        <img src={props.imagenPlanta} alt="imagen planta" />
+        <img src={imagenPlanta} alt={nombrePlanta} />
       </div>
-      <span className="imgtitle">{props.nombrePlanta}</span>
+      <span className="imgtitle">{nombrePlanta}</span>
       <span className="imgfont">Foto de <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" className="link">Kelly Sikkema</a> en <a href="https://unsplash.com/es/s/fotos/planta-lengua-de-suegra?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" className="link" >Unsplash</a></span>
       </li>
   );
