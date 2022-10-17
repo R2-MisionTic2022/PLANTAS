@@ -2,6 +2,18 @@ body {
   margin: 0px;
 }
 
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  padding:20px;
+}
+
+ul{
+  list-style:none ;
+  padding: 0px;
+  margin: 0px;
+}
+
 .ConenedorImagen{
   height: 50px;
   width: 50px;
