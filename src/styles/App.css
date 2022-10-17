@@ -98,9 +98,9 @@ ul{
 }
 
 .PlantsCard{
-  margin:10px;
+  margin:15px;
   background-color: rgb(160, 160, 162);
-  box-shadow: 5px 10px 5px rgb(160, 160, 162);
+  box-shadow: 5px 10px 5px rgb(187, 187, 187);
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -132,6 +132,6 @@ h1{
 .imgtitle{
   font-size: 16px;
   color: white;
-  margin: 10px;
+  margin: 15px;
 
 }
