@@ -1,8 +1,9 @@
-import './styles/App.css';
-import sansevieria from './media/sansevieria.jpg';
-import monstera from './media/monstera.jpg';
-import espatifilo from './media/espatifilo.jpg';
-import logo from './media/logo.png';
+import PlantsCard from 'components/PlantsCard';
+import 'styles/App.css';
+import sansevieria from 'media/sansevieria.jpg';
+import monstera from 'media/monstera.jpg';
+import espatifilo from 'media/espatifilo.jpg';
+import logo from 'media/logo.png';
 
 function App() {
   return (
@@ -51,18 +52,5 @@ function App() {
     </div>
   );
 }
-
-function PlantsCard({nombrePlanta, imagenPlanta, fuenteImagen}){
-  return(
-    <li className="PlantsCard">
-      <div className="ContainerImage">
-        <img src={imagenPlanta} alt={nombrePlanta} />
-      </div>
-      <span className="imgtitle">{nombrePlanta}</span>
-      <span className="imgfont link">Foto de <a href={fuenteImagen}>Unsplash</a></span>
-      </li>
-  );
-}
-
-  
+ 
 export default App;
