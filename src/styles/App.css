@@ -14,6 +14,21 @@ header{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.mainContainer{
+  display:flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainContainer > main{
+  height: 100%;
+}
+
+.mainContainer > footer{
+  background-color: #54e754;
+  padding: 5px;
+}
+
 .navbar{
   display:flex;
   justify-content:space-between;
@@ -151,11 +166,8 @@ h2{
 }
 
 footer{
-  background-color: #54e754;
   font-size: 10px;
-  padding: 5px;
   text-align:center;
-  margin-top: auto;
 }
 
 .link {

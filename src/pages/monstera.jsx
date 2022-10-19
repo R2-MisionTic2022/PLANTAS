@@ -1,14 +1,4 @@
-import 'styles/App.css';
-import Header from 'components/Header';
-import Footer from 'components/Footer';
-
 function MonsteraInfoPage() {
-    return (
-      <div> 
-        <Header />
-        Hola, esta es la página de monstera
-        <Footer />
-      </div>
-    );
+    return <div>Informacion sobre monstera</div>
   }
 export default MonsteraInfoPage;
