@@ -1,4 +1,5 @@
 import logo from 'media/logo.png';
+import {Link} from "react-router-dom";
 
 // function arrow 
 const Header = () =>{
@@ -6,7 +7,9 @@ const Header = () =>{
         <header>
           <ul className="navbar">
             <li>
-              <img src={logo} alt="logo" className="logo" />
+            <Link to="/index">
+            <img src={logo} alt="logo" className="logo" />
+            </Link>
             </li>
             <li>
               <div class="buscar">
@@ -16,7 +19,9 @@ const Header = () =>{
             </li>
 
             <li>
+              <Link to="/Login">
               <button className="button mainbutton">Iniciar Sesión</button>
+              </Link>
             </li>
 
             <li>

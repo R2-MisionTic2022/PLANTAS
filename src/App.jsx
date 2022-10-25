@@ -1,9 +1,11 @@
 import Index from 'pages';
+import Login from 'pages/login';
 import MonsteraInfoPage from 'pages/monstera';
 import SansevieriaInfoPage from 'pages/sansevieria';
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import 'styles/App.css';
 import Layout from 'layouts/Layout';
+
 
 function App() {
   return (
@@ -12,7 +14,8 @@ function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<Index /> } />  
-            <Route path="index" element={<Index /> } />  
+            <Route path="index" element={<Index /> } /> 
+            <Route path="login" element={<Login /> } />   
             <Route path="monstera" element={<MonsteraInfoPage /> } />  
             <Route path="sansevieria" element={<SansevieriaInfoPage /> } />  
           </Routes>
