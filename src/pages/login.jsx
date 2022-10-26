@@ -1,7 +1,10 @@
+import logo from 'media/logo.png';
+
 function Login(){
     return (  
-      <div className="form">
-        <form>
+      <div className="mainContainer">    
+        <form>   
+            <img src={logo} alt="logo" className="logo" />
             <h1>Iniciar Sesión</h1>
             <input type='email' />
             <input type='password' />
@@ -11,7 +14,7 @@ function Login(){
             </div>
             <button type='Submit' className='secondarybutton'>Inciar Sesión</button>
         </form>
-            <h4>¿Aún no tienes cuenta?</h4>
+            <span>¿Aún no tienes cuenta?</span>
       </div>
     );
 }

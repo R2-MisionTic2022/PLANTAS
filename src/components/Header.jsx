@@ -23,10 +23,6 @@ const Header = () =>{
               <button className="button mainbutton">Iniciar Sesión</button>
               </Link>
             </li>
-
-            <li>
-              <button className="button secondarybutton">Registrarse</button>
-            </li>
           </ul>
         </header>
         

@@ -14,24 +14,24 @@ ul{
 .mainContainer > main {
   height: 100%;
   overflow-y: scroll;
+  
 }
 
 .mainContainer > footer{
-  background-color: #54e754;
-  padding: 5px;
+  background-color: #7DBE44;
 }
 
 header{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+
+  }
 
 .navbar{
   display:flex;
   justify-content:space-between;
-  padding:10px;
-  background-color: white;
-  border-bottom: 0.8px solid rgb(184, 143, 223);
-  box-shadow: 0.8px 0.8px rgb(184, 143, 223);
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 50px;
 }
 
 .navbar > li{
@@ -53,11 +53,11 @@ header{
 .button:hover {
   cursor:pointer;
   transform: scale(1.1);
-  box-shadow: 1px 1px #54e754;
+  box-shadow: 1px 1px #7DBE44;
 }
 
 .mainbutton{
-  background-color: #54e754;
+  background-color: #7DBE44;
   color: white;
   box-shadow: 5px green;
 }
@@ -136,11 +136,11 @@ h1{
   color:rgb(184, 143, 223);
   text-align: center;
   font-size: 28px;
-  text-decoration-color: #54e754;
+  text-decoration-color: #7DBE44;
 }
 
 h2{
-  color:#54e754 ;
+  color:#7DBE44 ;
   text-align: left;
   font-size: 24px;
   text-decoration-color:rgb(184, 143, 223);
