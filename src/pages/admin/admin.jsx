@@ -1,17 +1,8 @@
-import { Outlet, Link } from "react-router-dom"
+import {Outlet} from 'react-router-dom';
 
-const Admin = () => {
+function Admin() {
   return (
-    <div>
-      <span>Página administración del sitio</span>
-      <ul>
-        <li>
-          <Link to="clientes">Administración de clientes</Link>
-        </li>
-        <li>
-          <Link to="productos">Administración de productos</Link>
-        </li>
-      </ul>
+    <div class>
     <Outlet />
     </div>
   )

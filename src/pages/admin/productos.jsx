@@ -2,7 +2,9 @@ import React from 'react'
 
 export const Productos = () => {
   return (
-    <div>Página Interna de productos</div>
+    <div>
+      <h1>Administración de Productos</h1>
+    </div>
   )
 }
 

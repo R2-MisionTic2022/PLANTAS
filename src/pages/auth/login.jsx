@@ -1,7 +1,10 @@
+import React from 'react';
+import {Outlet} from 'react-router-dom';
 import logo from 'media/logo.png';
 
 function Login(){
     return (  
+      <>
       <div className="mainContainer">    
         <form>   
             <img src={logo} alt="logo" className="logo" />
@@ -15,7 +18,10 @@ function Login(){
             <button type='Submit' className='secondarybutton'>Inciar Sesión</button>
         </form>
             <span>¿Aún no tienes cuenta?</span>
+      <Outlet />
       </div>
+      
+      </>
     );
 }
 

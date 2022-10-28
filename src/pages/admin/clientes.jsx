@@ -2,7 +2,9 @@ import React from 'react'
 
 const Clientes = () => {
   return (
-    <div>Pagina interna de Clientes</div>
+    <div>
+      <h1>Administración de Clientes</h1>
+    </div>
   )
 }
 
