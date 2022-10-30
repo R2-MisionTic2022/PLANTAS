@@ -5,10 +5,10 @@ import { Row, Col } from "react-bootstrap";
 
 const PrivateLayout = () => {
   return (
-    <div className="mainContainer">
+    <div>
       <main>
         <Row>
-          <Col>
+          <Col xs={3}>
             <Sidebar />
           </Col>
           <Col>

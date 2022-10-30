@@ -10,7 +10,9 @@ import SansevieriaInfoPage from 'pages/products/sansevieria';
 import Admin from 'pages/admin/admin';
 import Clientes from 'pages/admin/clientes';
 import Productos from 'pages/admin/productos';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'styles/App.css';
+
 
 
 function App() {

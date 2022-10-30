@@ -3,10 +3,8 @@ import Footer from "components/Footer";
 
 const AuthLayout = () => {
   return (
-    <div className="mainContainer">
-      <main>
-        <Outlet />
-      </main>
+    <div className="authContainer">
+      <Outlet />
       <Footer />
     </div>
   )
